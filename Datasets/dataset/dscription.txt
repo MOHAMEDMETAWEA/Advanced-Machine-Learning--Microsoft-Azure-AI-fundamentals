@@ -1,0 +1,35 @@
+Here's a brief description of the features and their potential use in machine learning:
+
+1. **PassengerId**: Unique identifier. Not used in ML.
+2. **Pclass**: Passenger class (1st, 2nd, 3rd). Useful for classification/regression.
+3. **Name**: Passenger name. Extract titles for additional features.
+4. **Sex**: Gender (male, female). Useful for classification/regression.
+5. **Age**: Passenger age. Useful for classification/regression.
+6. **SibSp**: Number of siblings/spouses aboard. Useful for classification/regression.
+7. **Parch**: Number of parents/children aboard. Useful for classification/regression.
+8. **Ticket**: Ticket number. Not directly used; can extract features.
+9. **Fare**: Ticket fare. Useful for classification/regression.
+10. **Cabin**: Cabin number. Not directly used; extract deck info.
+11. **Embarked**: Port of embarkation (C, Q, S). Useful for classification/regression.
+
+### Key Features for ML:
+- **Pclass**
+- **Sex**
+- **Age**
+- **SibSp**
+- **Parch**
+- **Fare**
+- **Embarked**
+
+### Potential Engineered Features:
+- **Title** (from Name)
+- **FamilySize** (SibSp + Parch + 1)
+- **IsAlone** (from FamilySize)
+- **Deck** (from Cabin)
+
+
+In the dataset, **C, Q, and S** represent the ports of embarkation for passengers on the Titanic:
+
+- **C**: Cherbourg, France
+- **Q**: Queenstown (now Cobh), Ireland
+- **S**: Southampton, England

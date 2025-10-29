@@ -1,0 +1,29 @@
+===============Fundamentals ================
+https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html 
+
+https://microsoftlearning.github.io/AI-900-AIFundamentals/instructions/02b-create-classification-model.html#add-an-evaluate-model-module 
+
+https://microsoftlearning.github.io/AI-900-AIFundamentals/instructions/03a-classify-images.html#test-the-client-application
+
+https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html
+
+https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/10-document-intelligence.html
+
+https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/03-image-analysis.html
+
+https://raw.githubusercontent.com/MicrosoftLearning/AI-900-AIFundamentals/main/data/ml/diabetes.csv 
+
+https://github.com/MicrosoftLearning/mslearn-ai-fundamentals/blob/main/Instructions/Labs/07-question-answering.md
+
+
+https://github.com/MicrosoftLearning/mslearn-ai-fundamentals/blob/main/Instructions/Labs/09-speech.md
+
+
+================== RAG  ==================
+
+https://microsoftlearning.github.io/mslearn-openai/Instructions/Exercises/06-use-own-data.html
+
+https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/04-Use-own-data.html
+
+https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/03-Use-prompt-flow-chat.html
+
