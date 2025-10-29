@@ -1,7 +1,3 @@
-Method,Definition,Pros,Cons
-Recursive Feature Elimination (RFE),Recursively eliminates the least important features based on model importance.,"Tends to give better results, handles multicollinearity well.","Computationally expensive, especially with many features."
-Forward Feature Selection,"Starts with an empty model and adds features one by one, selecting the feature that improves the model the most.","Less computationally expensive, easy to implement.","Can miss feature interactions, less effective with multicollinearity."
-Backward Feature Selection,"Starts with all features and removes them one by one, selecting the feature that, when removed, improves the model the most.","Captures feature interactions better, useful with smaller initial feature sets.","Computationally expensive, can overfit if not carefully managed."
-KBest,Selects the top K features based on a specified statistical test.,"Simple, fast, computationally efficient.","Does not consider feature interactions, only considers individual feature relevance."
-Random Forest Feature Selection,Uses feature importance scores from a Random Forest model to select the most relevant features.,"Captures feature interactions and non-linear relationships, robust to overfitting.","Computationally expensive, requires tuning of Random Forest hyperparameters."
-Select Percentile,Selects a percentage of the best features based on a specified statistical test.,"Simple, fast, computationally efficient, allows for flexible selection of features.","Does not consider feature interactions, only considers individual feature relevance."
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3c42b0376eb58ae15ad174856ada53f114a8d0b8f48346c099e1ba8060a7aaa
+size 1602
