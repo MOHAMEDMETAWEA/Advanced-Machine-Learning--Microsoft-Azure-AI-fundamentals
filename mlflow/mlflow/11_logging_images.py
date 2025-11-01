@@ -29,15 +29,14 @@ if __name__=="__main__":
         fig_pr = plt.figure()
         pr_display = PrecisionRecallDisplay.from_predictions(y_test, y_pred, ax=plt.gca())
         plt.title("Precision-Recall Curve")
-        plt.legend()
-
+        plt.legend([], [], frameon=False)  # no warning
         mlflow.log_figure(fig_pr, "metrics/precision_recall_curve.png")
 
         # log the ROC curve
         fig_roc = plt.figure()
         roc_display = RocCurveDisplay.from_predictions(y_test, y_pred, ax=plt.gca())
         plt.title("ROC Curve")
-        plt.legend()
+        plt.legend([], [], frameon=False)  # no warning
 
         mlflow.log_figure(fig_roc, "metrics/roc_curve.png")
 
@@ -45,7 +44,7 @@ if __name__=="__main__":
         fig_cm = plt.figure()
         cm_display = ConfusionMatrixDisplay.from_predictions(y_test, y_pred, ax=plt.gca())
         plt.title("Confusion Matrix")
-        plt.legend()
+        plt.legend([], [], frameon=False)  # no warning
 
         mlflow.log_figure(fig_cm, "metrics/confusion_matrix.png")
 

@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Advanced%20Machine%20Learning%2B%20Microsoft%20Azure%20AI%20fundamentals/mlflow/mlflow/mlruns/0/5eb069ecb9fe4fe691fccc397d25911b/artifacts
+end_time: 1761924211618
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5eb069ecb9fe4fe691fccc397d25911b
+run_name: fearless-yak-105
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761924211529
+status: 3
+tags: []
+user_id: Administrator

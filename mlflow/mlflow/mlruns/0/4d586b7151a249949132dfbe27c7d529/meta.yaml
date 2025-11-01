@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Advanced%20Machine%20Learning%2B%20Microsoft%20Azure%20AI%20fundamentals/mlflow/mlflow/mlruns/0/4d586b7151a249949132dfbe27c7d529/artifacts
+end_time: 1761924226704
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4d586b7151a249949132dfbe27c7d529
+run_name: mlflow_runs
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761924226642
+status: 3
+tags: []
+user_id: Administrator

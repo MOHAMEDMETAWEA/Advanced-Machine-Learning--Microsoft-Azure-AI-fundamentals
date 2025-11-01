@@ -12,7 +12,7 @@ if __name__=="__main__":
 
         # create a text file that says hello world
         with open("hello_world.txt", "w") as f:
-            f.write("Hello World!")
+            f.write("Hello Mohamed!")
 
         # log the text file as an artifact
         mlflow.log_artifact(local_path="hello_world.txt", artifact_path="text_files")
